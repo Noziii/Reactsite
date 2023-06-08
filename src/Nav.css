@@ -1,0 +1,97 @@
+
+
+.nav {
+  background: rgba(14, 13, 13, 0.663);
+  
+  height: 90px;
+  width: 101%;
+  position: sticky;
+  position: -webkit- sticky;
+  margin-top: -8px;
+  margin-left: -8px;
+ 
+  
+}
+
+
+nav ul{
+  float: right;
+  margin-right: 40px;
+  
+}
+
+nav ul li{
+  margin: 0px;
+  margin-right: 30px;
+  margin-top: 15px;  
+  display: inline-block;
+  border-right: 4px solid #bbb;  
+  font-weight: bold;
+}
+
+li:last-child{
+border-right: none;
+}
+
+nav ul li a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  padding-right: 5px;
+}
+ 
+li a:hover{
+
+  text-decoration: underline ;
+  color: rgb(227, 198, 215);
+ 
+}
+a.active{
+  text-decoration: underline ;
+  color: rgb(227, 198, 215);
+ 
+}
+
+.FaBars {
+  font-size: 30px;
+  margin-left: 40px;
+  color: white;
+  line-height: 80px;
+  cursor: pointer;
+  display: none;
+}
+
+
+#check {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .FaBars {
+    display: block;
+  }
+
+  nav ul{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(27, 26, 26, 0.837);
+    height: 100vh;
+    top: 63px;
+    left: -110%; 
+    transition: all 1s;
+  }
+
+  nav ul li{
+    display: block;
+    padding: 30px 180px;
+    text-transform: uppercase;
+  }
+
+  
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+
