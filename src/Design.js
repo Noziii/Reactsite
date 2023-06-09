@@ -5,10 +5,10 @@ class Design extends Component {
   render() {
     return (
       <main className="Design">
-        <div className="bg-design"></div>
         <main id="home">
+          <div className="bg-design"></div>
           <main class="picture">
-            <a href="wireframe.html">
+            <a href="/wireframe">
               <img
                 src="https://images.unsplash.com/photo-1600132806608-231446b2e7af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
                 class="Wire"
@@ -20,7 +20,7 @@ class Design extends Component {
           </main>
 
           <main class="picture">
-            <a href="styleguide.html">
+            <a href="/styleguide">
               <img
                 src="https://images.unsplash.com/photo-1523968984674-42be380a916f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=775&q=80"
                 class="Guide"
@@ -32,7 +32,7 @@ class Design extends Component {
           </main>
 
           <main class="picture">
-            <a href="references.html">
+            <a href="references">
               <img
                 src="https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
                 class="Planning"
@@ -43,6 +43,14 @@ class Design extends Component {
             <figcaption class="desc">References</figcaption>
           </main>
         </main>
+        <footer class="footer">
+          <p>
+            <strong>Email:</strong> miss.nozii.sithole@gmail.com
+          </p>
+          <p>
+            <strong>Tel:</strong> (065) 744 9243
+          </p>
+        </footer>
       </main>
     );
   }

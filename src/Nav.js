@@ -8,6 +8,8 @@ import Theory from "./Theory";
 import Art from "./Art";
 import blogone from "./blogone";
 import blogtwo from "./blogtwo";
+import styleguide from "./styleguide";
+
 import "./Nav.css";
 
 class Nav extends Component {
@@ -48,7 +50,8 @@ class Nav extends Component {
           <Route exact path="Art" Component={Art} />
           <Route exact path="Design" Component={Design} />
           <Route exact path="blogone" Component={blogone} />
-          <Route exact path="blogone" Component={blogtwo} />
+          <Route exact path="blogtwo" Component={blogtwo} />
+          <Route exact path="styleguide" Component={styleguide} />
         </Routes>
       </nav>
     );

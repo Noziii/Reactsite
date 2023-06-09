@@ -7,16 +7,16 @@ class Art extends Component {
       <main className="Art">
         <div className="bg-art"></div>
         <main class="art">
-          <img src="images/collage9.jpg" class="headright" />
+          <img src="" class="headright" />
           <a href="afro">
-            <img src="images/collage7.jpg" class="headleft" />
+            <img src="" class="headleft" />
           </a>
-          <img src="images/collage8.jpg" class="lefteye" />
-          <img src="images/collage6.jpg" class="righteye" />
-          <img src="images/collage12.jpg" class="mouth" />
-          <img src="images/collage17.jpg" class="chest" />
+          <img src="" class="lefteye" />
+          <img src="" class="righteye" />
+          <img src="" class="mouth" />
+          <img src="" class="chest" />
         </main>
-        <footer class="footer">
+        <footer class="footer1">
           <p>
             <strong>Email:</strong> miss.nozii.sithole@gmail.com
           </p>

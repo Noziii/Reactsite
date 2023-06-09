@@ -6,8 +6,8 @@ import { HashRouter as Router } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <Router>
+  <BrowserRouter>
     <Nav />
-  </Router>,
+  </BrowserRouter>,
   document.getElementById("root")
 );

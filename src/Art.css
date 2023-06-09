@@ -4,7 +4,8 @@
     background-color: rgb(203, 155, 163);
    margin-left: -8px;
    margin-right: -8px;
-   height: 150vh;
+   height: 110vh;
+   margin-bottom: -410px;
  
   }
  
@@ -74,16 +75,20 @@
    filter: blur(5px);
    transition: 1s ease;
    }
- 
-   .footer {
+
+   .footer1 {
     padding: 3px;
      text-align: center;
      font-size: 20px;
-     background: rgba(69, 66, 66, 0.318);
-     margin-top: -333px;
+     background: rgba(45, 44, 44, 0.714);
+     margin-top:93px;
+     margin-left: -8px;
+     margin-right: -8px;
      color: white;
      
    }
+ 
+   
  
   
    
