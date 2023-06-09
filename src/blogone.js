@@ -79,7 +79,7 @@ class blogone extends Component {
             https://www.sandermartens.com/new-work/2020/4/19/tip-of-the-day-13-exhausting-a-crowd
           </p>
         </main>
-        <footer class="footer">
+        <footer class="footer4">
           <p>
             <strong>Email:</strong> miss.nozii.sithole@gmail.com
           </p>
