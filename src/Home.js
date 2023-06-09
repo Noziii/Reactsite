@@ -6,9 +6,9 @@ class Home extends Component {
     return (
       <main className="Home">
         <div className="bg"></div>
-        <h1 className="name">Don't</h1>
-        <h1 className="name1">Touch My</h1>
-        <h1 className="name2">HAIR !!!</h1>
+        <h1 className="name1">Don't</h1>
+        <h1 className="name2">Touch My</h1>
+        <h1 className="name3">HAIR !!!</h1>
       </main>
     );
   }

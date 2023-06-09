@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 
 import { Route, Routes, NavLink } from "react-router-dom";
+
 import Design from "./Design";
 import Home from "./Home";
 import Theory from "./Theory";
 import Art from "./Art";
+import blogone from "./blogone";
+import blogtwo from "./blogtwo";
 import "./Nav.css";
 
 class Nav extends Component {
@@ -44,6 +47,8 @@ class Nav extends Component {
           <Route exact path="Theory" Component={Theory} />
           <Route exact path="Art" Component={Art} />
           <Route exact path="Design" Component={Design} />
+          <Route exact path="blogone" Component={blogone} />
+          <Route exact path="blogone" Component={blogtwo} />
         </Routes>
       </nav>
     );

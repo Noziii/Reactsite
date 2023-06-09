@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Theory.css";
-import Card from "./Card";
 
 class Theory extends Component {
   render() {
@@ -22,7 +21,8 @@ class Theory extends Component {
                       video especially because I was failing to understand most
                       of ...
                     </p>
-                    <a href="blogone.html" class="button">
+
+                    <a href="/blogone" class="button">
                       Read
                     </a>
                   </header>
@@ -76,7 +76,8 @@ class Theory extends Component {
                     <h3>My UI and UX</h3>
                     <p>
                       To start of let us give a brief definition of UI and UX.
-                      UI refers to the aesthetic design...
+                      UI refers to the aesthetic design of an application’s
+                      interface, and UX refers...
                     </p>
                     <a href="blogfour.html" class="button">
                       Read
@@ -94,7 +95,8 @@ class Theory extends Component {
                     <h3>Reflection</h3>
                     <p>
                       According to research internet art refers to art that is
-                      made on and for the internet...
+                      made on and for the internet. So far, I hadn’t seen any
+                      internet art that is...
                     </p>
                     <a href="blogfive.html" class="button">
                       Read
@@ -106,10 +108,10 @@ class Theory extends Component {
               <section class="blogpost">
                 <aside class="content">
                   <div class="image">
-                    <img src="https://i.pinimg.com/564x/8e/d5/8b/8ed58b45cef4252e2364db74cc28530e.jpg" />
+                    <img src="https://i.pinimg.com/564x/a6/fd/21/a6fd2129ba0626ffa083e962ebcb7ea5.jpg" />
                   </div>
                   <header class="desc">
-                    <h3>My web art</h3>
+                    <h3>Web art improved</h3>
                     <p>
                       For my Web art, I have settled on focusing on black
                       women’s hair as an art form because it can take on

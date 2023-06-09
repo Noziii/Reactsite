@@ -1,0 +1,197 @@
+body {
+   
+    background-image: url(images/82f1c39ab2e84ba943a95ead9d176571.jpg) ;
+     background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 182vh;
+ 
+   }
+ 
+  
+   nav {
+     background: rgba(35, 34, 34, 0.301);
+     backdrop-filter: blur(7px);
+     height: 80px;
+     width: 100%;
+      position: sticky;
+      position: -webkit- sticky;
+     top: 0;
+     z-index: 3;
+   }
+ 
+   
+   nav ul{
+     float: right;
+     margin-right: 40px;
+     
+   }
+ 
+   nav ul li{
+     margin: 5px;
+     margin-right: 30px;
+     margin-top: 15px;  
+     display: inline-block;
+     border-right: 2px solid #bbb;
+    
+  }
+ 
+  li:last-child{
+   border-right: none;
+  }
+   
+   nav ul li a {
+     font-size: 23px;
+     color: white;
+     text-decoration: none;
+     padding-right: 5px;
+     font-weight: bold;
+   }
+    
+   li a:hover{
+   
+     text-decoration: underline ;
+     color: rgb(227, 198, 215);
+    
+   }
+   a.active {
+     text-decoration: underline ;
+     color:rgb(227, 198, 215);
+    
+   }
+   .name {
+     color: rgb(242, 214, 214);
+     font-size: 70px;
+     font-family: Lucida handwriting;
+     font-weight: bold;
+     line-height: 130px;
+     margin-left: 100px;
+     position: center;  
+     padding: 10px 10px;
+     text-align: center;
+     margin-top: -10px ;
+   }
+ 
+   
+ 
+   .one {
+     text-align: left;
+       margin-left: 100px;
+       margin-right: 100px;
+       margin-top: 10px;
+       color: rgb(255, 255, 255);
+       font-size: 20px;
+       background-color: rgb(31, 31, 31);
+       line-height: 40px;
+       border-radius: 0px;
+       padding: 15px 30px;
+        font-weight: 400;
+        line-height: 1.5;
+       font-family: 'Raleway', sans-serif;
+   }
+ 
+   .prev, .next {
+     cursor: pointer;
+     position: sticky;
+     top: 50%;
+     width: auto;
+     margin-top: 10px;
+     padding: 16px;
+     color: rgb(179, 173, 173);
+     font-weight: bold;
+     font-size: 30px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+     background-color: black;
+    }
+   
+    /* Position the "next button" to the right */
+    .next {
+     right: 0px;
+     border-radius: 3px 0 0 3px;
+     margin-left: 1470px;
+    }
+   
+    .prev {
+     left: 0;
+     border-radius: 3px 0 0 3px;
+
+   
+    }
+   
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+     background-color: rgba(157, 149, 149, 0.8);
+     color: black;
+    }
+   
+   .footer {
+     padding: 3px;
+      text-align: center;
+      font-size: 20px;
+      background: rgba(40, 39, 39, 0.318);
+      margin-top: 90px;
+      color: white;
+     }
+ 
+     .bars {
+       font-size: 30px;
+       margin-left: 40px;
+       color: white;
+       line-height: 80px;
+       cursor: pointer;
+       display: none;
+     }
+     
+     
+     #check {
+       display: none;
+     }
+     
+     @media (max-width: 800px) {
+       .bars {
+         display: block;
+       }
+   
+       nav ul{
+         position: absolute;
+         width: 100%;
+         background-color: rgba(27, 26, 26, 0.837);
+         height: 100vh;
+         top: 63px;
+         left: -110%; 
+         transition: all 1s;
+       }
+   
+       nav ul li{
+         display: block;
+         padding: 30px 180px;
+         text-transform: uppercase;
+       }
+   
+       body {
+    
+         background-image: url(images/82f1c39ab2e84ba943a95ead9d176571.jpg) ;
+          background-size: cover;
+         backdrop-filter: blur(10px);
+         height: 259vh;
+      
+        }
+   
+       #check:checked ~ ul {
+         left: 0;
+       }
+ 
+       @media only screen and (max-width:800px) {
+         /* For tablets: */
+         .main {
+           width: 80%;
+           padding: 0;
+         }
+         .right {
+           width: 100%;
+         }
+     }
+   }
+       
+ 

@@ -2,11 +2,9 @@
 
 .nav {
   background: rgba(14, 13, 13, 0.663);
-  
   height: 90px;
   width: 101%;
   position: sticky;
-  position: -webkit- sticky;
   margin-top: -8px;
   margin-left: -8px;
  
