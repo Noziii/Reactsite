@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-import { Route, Routes, NavLink, Switch } from "react-router-dom";
-
-import Design from "./Design";
+import { Routes, Route, Link } from "react-router-dom";
+import ReorderIcon from "@mui/icons-material/Reorder";
 import Home from "./Home";
+import Design from "./Design";
 import Theory from "./Theory";
 import Art from "./Art";
 import blogone from "./blogone";
@@ -13,47 +13,83 @@ import styleguide from "./styleguide";
 import "./Nav.css";
 
 class Nav extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      openLinks: false,
+    };
+    this.toggleNav = this.toggleNav.bind(this);
+  }
+
+  toggleNav() {
+    this.setState((prevState) => ({
+      openLinks: !prevState.openLinks,
+    }));
+  }
+
   render() {
     return (
       <nav className="navbar">
         <nav className="nav">
           <ul>
             <li>
-              <NavLink exact activeClassName="active" to="/">
+              <Link exact activeClassName="active" to="/">
                 Home
-              </NavLink>
+              </Link>
             </li>
 
             <li>
-              <NavLink exact activeClassName="active" to="/Theory">
+              <Link exact activeClassName="active" to="/Theory">
                 Theory
-              </NavLink>
+              </Link>
             </li>
 
             <li>
-              <NavLink exact activeClassName="active" to="/Art">
+              <Link exact activeClassName="active" to="/Art">
                 Art
-              </NavLink>
+              </Link>
             </li>
 
             <li>
-              <NavLink exact activeClassName="active" to="/Design">
+              <Link exact activeClassName="active" to="/Design">
                 Design
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </nav>
+        {/*<nav
+          className="hiddenLinks"
+          id={this.state.openlinks ? "open" : "close"}
+        >
+          <ul>
+            <li>
+              <Link exact activeClassName="active" to="/">
+                Home
+              </Link>
+            </li>
 
-        <Routes>
-          <Route exact path="/" Component={Home} />
-          <Route exact path="Theory" Component={Theory} />
-          <Route exact path="Art" Component={Art} />
-          <Route exact path="Design" Component={Design} />
-          <Route exact path="blogone" Component={blogone} />
+            <li>
+              <Link exact activeClassName="active" to="/Theory">
+                Theory
+              </Link>
+            </li>
 
-          <Route exact path="blogtwo" Component={blogtwo} />
-          <Route exact path="styleguide" Component={styleguide} />
-        </Routes>
+            <li>
+              <Link exact activeClassName="active" to="/Art">
+                Art
+              </Link>
+            </li>
+
+            <li>
+              <Link exact activeClassName="active" to="/Design">
+                Design
+              </Link>
+            </li>
+          </ul>
+          <button onClick={this.toggleNav}>
+            <ReorderIcon />
+          </button>
+    </nav>*/}
       </nav>
     );
   }

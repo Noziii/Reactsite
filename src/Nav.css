@@ -1,6 +1,6 @@
 
 
-.nav {
+.navbar {
   background: rgba(14, 13, 13, 0.663);
   height: 90px;
   width: 101%;
@@ -12,13 +12,13 @@
 }
 
 
-nav ul{
+.navbar ul{
   float: right;
   margin-right: 40px;
   
 }
 
-nav ul li{
+.navbar ul li{
   margin: 0px;
   margin-right: 30px;
   margin-top: 15px;  
@@ -27,69 +27,51 @@ nav ul li{
   font-weight: bold;
 }
 
-li:last-child{
+.navbar li:last-child{
 border-right: none;
 }
 
-nav ul li a {
+.navbar ul li a {
   font-size: 25px;
   color: white;
   text-decoration: none;
   padding-right: 5px;
 }
  
-li a:hover{
+.navbar li a:hover{
 
   text-decoration: underline ;
   color: rgb(227, 198, 215);
  
 }
-a.active{
+.navbar a.active{
   text-decoration: underline ;
   color: rgb(227, 198, 215);
  
 }
 
-.FaBars {
-  font-size: 30px;
-  margin-left: 40px;
-  color: white;
-  line-height: 80px;
+ button{
+  background-color: transparent;
+  color:#fff ;
   cursor: pointer;
-  display: none;
+  border:none;
+
 }
 
+.navbar #open{
+  padding-top: 0px;
 
-#check {
-  display: none;
 }
 
-@media (max-width: 800px) {
-  .FaBars {
-    display: block;
-  }
-
-  nav ul{
-    position: absolute;
-    width: 100%;
-    background-color: rgba(27, 26, 26, 0.837);
-    height: 100vh;
-    top: 63px;
-    left: -110%; 
-    transition: all 1s;
-  }
-
-  nav ul li{
-    display: block;
-    padding: 30px 180px;
-    text-transform: uppercase;
-  }
-
-  
-
-  #check:checked ~ ul {
-    left: 0;
-  }
+.hiddenlinks{
+  float: left;
 }
 
+.navbar #open .hiddenLinks{
+  display: inherit;
+  margin-left: 30px;
+}
 
+.navbar #close .hiddenLinks{
+  display: none !important;
+}
