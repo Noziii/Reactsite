@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Reactsite/static/css/main.5274adcb.css",
-    "main.js": "/Reactsite/static/js/main.42ebe102.js",
+    "main.css": "/Reactsite/static/css/main.2993d75a.css",
+    "main.js": "/Reactsite/static/js/main.194d2ed3.js",
     "static/media/background 1.jpg": "/Reactsite/static/media/background 1.9e3825cb8dba1afffdf6.jpg",
     "static/media/background 5.jpg": "/Reactsite/static/media/background 5.7a098b832d7ba07e3828.jpg",
     "static/media/background 4.jpg": "/Reactsite/static/media/background 4.1bb31c258c8138bf0ca1.jpg",
     "static/media/solidcolour.jpg": "/Reactsite/static/media/solidcolour.0aa3e89cbfc85f2d666f.jpg",
     "index.html": "/Reactsite/index.html",
-    "main.5274adcb.css.map": "/Reactsite/static/css/main.5274adcb.css.map",
-    "main.42ebe102.js.map": "/Reactsite/static/js/main.42ebe102.js.map"
+    "main.2993d75a.css.map": "/Reactsite/static/css/main.2993d75a.css.map",
+    "main.194d2ed3.js.map": "/Reactsite/static/js/main.194d2ed3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5274adcb.css",
-    "static/js/main.42ebe102.js"
+    "static/css/main.2993d75a.css",
+    "static/js/main.194d2ed3.js"
   ]
 }
