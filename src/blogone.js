@@ -1,17 +1,18 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./blogone.css";
 
 class blogone extends Component {
   render() {
     return (
-      <main className="blogfour">
-        <a href="blogsix" class="prev">
+      <main className="blogone">
+        <Link to="/blogsix" class="prev">
           &laquo;{" "}
-        </a>
-        <a href="blogtwo" class="next">
+        </Link>
+        <Link to="/blogtwo" class="next">
           {" "}
           &raquo;
-        </a>
+        </Link>
         <div className="bg2"></div>
         <main class="one">
           <header for="name" class="name">
