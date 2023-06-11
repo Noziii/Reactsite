@@ -75,3 +75,10 @@ border-right: none;
 .navbar #close .hiddenLinks{
   display: none !important;
 }
+
+.navbar #open a{
+  width: 70px;
+  margin:5px
+}
+
+

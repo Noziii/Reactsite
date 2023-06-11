@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ReorderIcon from "@mui/icons-material/Reorder";
 import Home from "./Home";
 import Design from "./Design";

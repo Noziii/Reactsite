@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Theory.css";
+import { Link } from "react-router-dom";
+import blogone from "./blogone";
 
 class Theory extends Component {
   render() {
@@ -22,9 +24,9 @@ class Theory extends Component {
                       of ...
                     </p>
 
-                    <a href="/blogone" class="button">
+                    <Link to="/blogone" class="button">
                       Read
-                    </a>
+                    </Link>
                   </header>
                 </aside>
               </section>
