@@ -1,5 +1,6 @@
 import "./App.css";
 import Nav from "./Nav";
+import Footer from "./Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Theory from "./Theory";
@@ -13,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <Nav />
-
       <Routes>
         <Route exact path="/" Component={Home} />
         <Route exact path="/theory" Component={Theory} />
@@ -23,6 +23,7 @@ function App() {
         <Route exact path="/blogtwo" Component={blogtwo} />
         <Route exact path="/styleguide" Component={styleguide} />
       </Routes>
+      <Footer />;
     </div>
   );
 }

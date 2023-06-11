@@ -23,9 +23,8 @@ class Theory extends Component {
                       video especially because I was failing to understand most
                       of ...
                     </p>
-
-                    <Link to="/blogone" class="button">
-                      Read
+                    <Link to="/blogone">
+                      <button class="button">Read</button>
                     </Link>
                   </header>
                 </aside>

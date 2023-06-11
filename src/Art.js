@@ -16,14 +16,6 @@ class Art extends Component {
           <img src="" class="mouth" />
           <img src="" class="chest" />
         </main>
-        <footer class="footer1">
-          <p>
-            <strong>Email:</strong> miss.nozii.sithole@gmail.com
-          </p>
-          <p>
-            <strong>Tel:</strong> (065) 744 9243
-          </p>
-        </footer>
       </main>
     );
   }
