@@ -13,7 +13,7 @@ class blogone extends Component {
           {" "}
           &raquo;
         </Link>
-        <div className="bg2"></div>
+        <div className="bg1"></div>
         <main class="one">
           <header for="name" class="name">
             Web Art ?

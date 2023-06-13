@@ -1,20 +1,21 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./blogfour.css";
 
 class blogfour extends Component {
   render() {
     return (
       <main className="blogfour">
-        <a href="blogthree" class="prev">
+        <Link to="/blogthree" class="prev">
           &laquo;{" "}
-        </a>
-        <a href="blogfive" class="next">
+        </Link>
+        <Link to="/blogfive" class="next">
           {" "}
           &raquo;
-        </a>
-        <div className="bg"></div>
-        <div className="one">
-          <header for="name" class="name">
+        </Link>
+        <div className="bg4"></div>
+        <div className="four">
+          <header for="name" class="name4">
             My UI and UX
           </header>
           <p>20 April 2023</p>
@@ -119,14 +120,6 @@ class blogfour extends Component {
             https://maze.co/collections/ux-ui-design/ui-design-principles/ .
           </p>
         </div>
-        <footer class="footer">
-          <p>
-            <strong>Email:</strong> miss.nozii.sithole@gmail.com
-          </p>
-          <p>
-            <strong>Tel:</strong> (065) 744 9243
-          </p>
-        </footer>
       </main>
     );
   }

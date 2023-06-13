@@ -5,15 +5,15 @@ class styleguide extends Component {
   render() {
     return (
       <main className="styleguide">
-        <div className="bg3"></div>
+        <div className="bg-styleguide"></div>
         <header for="name" class="name">
           Style Guide:
         </header>
         <main class="every">
           <main class="core">
-            <p class="one">Lucida Handwriting</p>
-            <p class="two">Raleway</p>
-            <p class="three">Fantasy, copperplate</p>
+            <p class="one0">Lucida Handwriting</p>
+            <p class="two0">Raleway</p>
+            <p class="three0">Fantasy, copperplate</p>
             <p class="core">
               I made use of a good range of fonts, I used the Lucida handwriting
               for the heading of my blog pages. Raleway I used for the body of
@@ -27,12 +27,12 @@ class styleguide extends Component {
             </p>
             <p class="core">Colour Palette:</p>
 
-            <p class="four">rgb(233, 228, 228);</p>
-            <p class="five">black</p>
-            <p class="six">white</p>
-            <p class="seven">rgb(31, 31, 31);</p>
-            <p class="eight">rgb(227, 198, 215)</p>
-            <p class="nine">rgb(214, 176, 176)</p>
+            <p class="four0">rgb(233, 228, 228);</p>
+            <p class="five0">black</p>
+            <p class="six0">white</p>
+            <p class="seven0">rgb(31, 31, 31);</p>
+            <p class="eight0">rgb(227, 198, 215)</p>
+            <p class="nine0">rgb(214, 176, 176)</p>
 
             <p class="core">
               My site does not make use of a wide range of colours mainly black,

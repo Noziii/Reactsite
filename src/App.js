@@ -8,6 +8,10 @@ import Design from "./Design";
 import Art from "./Art";
 import blogone from "./blogone";
 import blogtwo from "./blogtwo";
+import blogthree from "./blogthree";
+import blogfour from "./blogfour";
+import blogfive from "./blogfive";
+import blogsix from "./blogsix";
 import styleguide from "./styleguide";
 
 function App() {
@@ -21,6 +25,10 @@ function App() {
         <Route exact path="/art" Component={Art} />
         <Route exact path="/blogone" Component={blogone} />
         <Route exact path="/blogtwo" Component={blogtwo} />
+        <Route exact path="/blogthree" Component={blogthree} />
+        <Route exact path="/blogfour" Component={blogfour} />
+        <Route exact path="/blogfive" Component={blogfive} />
+        <Route exact path="/blogsix" Component={blogsix} />
         <Route exact path="/styleguide" Component={styleguide} />
       </Routes>
       <Footer />;

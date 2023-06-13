@@ -1,64 +1,22 @@
-body {
-   
-    background-image: url(images/82f1c39ab2e84ba943a95ead9d176571.jpg) ;
-     background-size: cover;
-    backdrop-filter: blur(10px);
-    height: 182vh;
- 
-   }
- 
+.bg2 {
+  background-color: rgb(31, 31, 31);
+  background-size: cover;
+  height: 180vh;
+  margin-left: -8px;
+  margin-right: -20px;
+  width: 100%;
+  z-index: -2;
+  margin-top: -160px;
+  margin-bottom: -39px;
   
-   nav {
-     background: rgba(35, 34, 34, 0.301);
-     backdrop-filter: blur(7px);
-     height: 80px;
-     width: 100%;
-      position: sticky;
-      position: -webkit- sticky;
-     top: 0;
-     z-index: 3;
-   }
- 
-   
-   nav ul{
-     float: right;
-     margin-right: 40px;
-     
-   }
- 
-   nav ul li{
-     margin: 5px;
-     margin-right: 30px;
-     margin-top: 15px;  
-     display: inline-block;
-     border-right: 2px solid #bbb;
-    
   }
- 
-  li:last-child{
-   border-right: none;
-  }
+
+
+
+
+  
    
-   nav ul li a {
-     font-size: 23px;
-     color: white;
-     text-decoration: none;
-     padding-right: 5px;
-     font-weight: bold;
-   }
-    
-   li a:hover{
-   
-     text-decoration: underline ;
-     color: rgb(227, 198, 215);
-    
-   }
-   a.active {
-     text-decoration: underline ;
-     color:rgb(227, 198, 215);
-    
-   }
-   .name {
+   .blogname2 {
      color: rgb(242, 214, 214);
      font-size: 70px;
      font-family: Lucida handwriting;
@@ -68,22 +26,22 @@ body {
      position: center;  
      padding: 10px 10px;
      text-align: center;
-     margin-top: -10px ;
+     margin-top: -px ;
    }
  
    
  
-   .one {
+   .two {
      text-align: left;
        margin-left: 100px;
        margin-right: 100px;
-       margin-top: 10px;
+       margin-top: -1100px;
        color: rgb(255, 255, 255);
        font-size: 20px;
        background-color: rgb(31, 31, 31);
        line-height: 40px;
        border-radius: 0px;
-       padding: 15px 30px;
+       padding: 20px 30px;
         font-weight: 400;
         line-height: 1.5;
        font-family: 'Raleway', sans-serif;
@@ -162,14 +120,19 @@ body {
          text-transform: uppercase;
        }
    
-       body {
-    
-         background-image: url(images/82f1c39ab2e84ba943a95ead9d176571.jpg) ;
-          background-size: cover;
-         backdrop-filter: blur(10px);
-         height: 259vh;
-      
+       .bg2 {
+        background-image: url(images/solidcolour.jpg);
+        background-size: cover;
+        height: 210vh;
+        margin-left: -8px;
+        
+        width: 100%;
+        z-index: -2;
+        margin-top: -160px;
+        margin-bottom: -39px;
+        
         }
+      
    
        #check:checked ~ ul {
          left: 0;

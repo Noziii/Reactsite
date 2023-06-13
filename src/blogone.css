@@ -1,9 +1,8 @@
-.bg2 {
-  background-image: url(images/solidcolour.jpg);
+.bg1 {
+  background-color: rgb(31, 31, 31);
   background-size: cover;
-  height: 210vh;
+  height: 220vh;
   margin-left: -8px;
-  margin-right: auto;
   width: 100%;
   z-index: -2;
   margin-top: -160px;
@@ -21,7 +20,7 @@
     line-height: 130px;
     margin-left: 110px;
     position: center;  
-    padding: 10px 10px;
+    padding: 20px 10px;
     text-align: center;
   }
 
@@ -38,9 +37,11 @@
 }
   .one {
     text-align: left;
+    background-color: rgb(31, 31, 31);
       margin-left: 100px;
+      justify-content: center;
       margin-right: 100px;
-      margin-top: -60px;
+      margin-top: -120px;
       color: rgb(255, 255, 255);
       font-size: 20px;
       line-height: 80px;

@@ -1,9 +1,10 @@
-.bg3{
+.bg-styleguide{
     background-image: url(images/background\ 5.jpg) ;
     filter: blur(8px);
   background-size: cover;
- height: 200vh;
+ height: 240vh;
  margin-left: -8px;
+ margin-right: -8px;
  z-index: -6;
  margin-top: -100px;
  margin-bottom: -39px;
@@ -15,8 +16,12 @@ position: relative;
   
  
    .every{
-    margin-top: 100px;
-    margin-bottom: -400px;
+    margin-top: 40px;
+    padding: 20px 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(35, 34, 34);
+
    }
   
    .name {
@@ -29,12 +34,12 @@ position: relative;
     position: center;  
     padding: 10px 10px;
     text-align: center;
-    margin-top: -1300px;
+    margin-top: -1580px;
     z-index: -1;
   }
 
   
-.one{
+.one0{
     font-family: Lucida handrwiting;
     text-align: left;
     padding: 5px 10px;
@@ -43,7 +48,7 @@ position: relative;
     margin-right: 40px;
 }
 
-.two{
+.two0{
     font-family: 'Raleway', sans-serif;
     text-align: left;
     padding: 5px 10px;
@@ -52,7 +57,7 @@ position: relative;
     margin-right: 40px;
 }
 
-.three{
+.three0{
     font-family: Fantasy ,copperplate;
     text-align: left;
     padding: 5px 10px;
@@ -66,12 +71,12 @@ position: relative;
     margin-right: 40px;
     color: white;
     font-size: 20px;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(35, 34, 34);
     line-height: 30px;
     border-radius: 15px;
     padding: 5px 10px;
   }
-.four{
+.four0{
     background-color:  rgb(233, 228, 228);
     text-align: left;
     color: black;
@@ -81,7 +86,7 @@ position: relative;
     margin-right: 40px;
 }
 
-.five{
+.five0{
     background-color: black;
     color: white;
     text-align: left;
@@ -91,7 +96,7 @@ position: relative;
     margin-right: 40px;
 }
 
-.six{
+.six0{
     background-color: white;
     color: black;
     text-align: left;
@@ -101,8 +106,8 @@ position: relative;
     margin-right: 40px;
 }
 
-.seven{
-    background-color: rgb(31, 31, 31);
+.seven0{
+    background-color: rgb(26, 25, 25);
     text-align: left;
     padding: 5px 10px;
     line-height: 30px;
@@ -110,7 +115,7 @@ position: relative;
     margin-right: 40px;
 }
 
-.eight{
+.eight0{
     background-color:rgb(227, 198, 215) ;
     text-align: left;
     padding: 5px 10px;
@@ -119,7 +124,7 @@ position: relative;
     margin-right: 40px;
 }
 
-.nine{
+.nine0{
    background-color: rgb(214, 176, 176);
     text-align: left;
     padding: 5px 10px;

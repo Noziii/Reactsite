@@ -7,7 +7,7 @@ class Theory extends Component {
   render() {
     return (
       <main className="Theory">
-        <div class="bg1"></div>
+        <div class="bg-theory"></div>
         <section class="card">
           <div class="container">
             <main class="column">
@@ -42,9 +42,9 @@ class Theory extends Component {
                       JavaScript to the point where I hoped I would never have
                       to see or deal with either...
                     </p>
-                    <a href="blogtwo.html" class="button">
-                      Read
-                    </a>
+                    <Link to="/blogtwo">
+                      <button class="button">Read</button>
+                    </Link>
                   </header>
                 </aside>
               </section>
@@ -61,9 +61,9 @@ class Theory extends Component {
                       women’s hair as an art form because it can take on
                       different froms shapes...
                     </p>
-                    <a href="blogthree.html" class="button">
-                      Read
-                    </a>
+                    <Link to="/blogthree">
+                      <button class="button"> Read</button>
+                    </Link>
                   </header>
                 </aside>
               </section>
@@ -80,9 +80,9 @@ class Theory extends Component {
                       UI refers to the aesthetic design of an application’s
                       interface, and UX refers...
                     </p>
-                    <a href="blogfour.html" class="button">
-                      Read
-                    </a>
+                    <Link to="/blogfour">
+                      <button class="button">Read</button>
+                    </Link>
                   </header>
                 </aside>
               </section>
@@ -99,9 +99,9 @@ class Theory extends Component {
                       made on and for the internet. So far, I hadn’t seen any
                       internet art that is...
                     </p>
-                    <a href="blogfive.html" class="button">
-                      Read
-                    </a>
+                    <Link to="/blogfive">
+                      <button class="button">Read</button>
+                    </Link>
                   </header>
                 </aside>
               </section>
@@ -109,18 +109,18 @@ class Theory extends Component {
               <section class="blogpost">
                 <aside class="content">
                   <div class="image">
-                    <img src="https://i.pinimg.com/564x/a6/fd/21/a6fd2129ba0626ffa083e962ebcb7ea5.jpg" />
+                    <img src="https://i.pinimg.com/564x/5c/e9/df/5ce9dffacea013c8f057ed37922db5ad.jpg" />
                   </div>
                   <header class="desc">
-                    <h3>Web art improved</h3>
+                    <h3>Essay</h3>
                     <p>
-                      For my Web art, I have settled on focusing on black
-                      women’s hair as an art form because it can take on
-                      different froms shapes...
+                      In this essay, I will be analysing the AI-generated song
+                      titled Heart on My Sleeve(2023) by artists Drake and The
+                      Weeknd as a web/internet...
                     </p>
-                    <a href="blogthree.html" class="button">
-                      Read
-                    </a>
+                    <Link to="/blogsix">
+                      <button class="button"> Read</button>
+                    </Link>
                   </header>
                 </aside>
               </section>
