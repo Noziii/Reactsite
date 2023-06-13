@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/Reactsite/static/css/main.2993d75a.css",
-    "main.js": "/Reactsite/static/js/main.194d2ed3.js",
+    "main.css": "/Reactsite/static/css/main.13565df2.css",
+    "main.js": "/Reactsite/static/js/main.df7ea09a.js",
+    "static/media/IMG-7498.jpg": "/Reactsite/static/media/IMG-7498.373c684292ff981443da.jpg",
+    "static/media/IMG-5152.jpg": "/Reactsite/static/media/IMG-5152.261b43b499d73d9a4004.jpg",
+    "static/media/IMG-7364.jpg": "/Reactsite/static/media/IMG-7364.03104e78ad615b922bba.jpg",
+    "static/media/050F1386-BD64-4B29-85A1-3DDD5F4C2C04.jpg": "/Reactsite/static/media/050F1386-BD64-4B29-85A1-3DDD5F4C2C04.e289456ccc2b85683df6.jpg",
     "static/media/background 1.jpg": "/Reactsite/static/media/background 1.9e3825cb8dba1afffdf6.jpg",
+    "static/media/collage.jpg": "/Reactsite/static/media/collage.7aaa160215f0f43ba5fb.jpg",
     "static/media/background 5.jpg": "/Reactsite/static/media/background 5.7a098b832d7ba07e3828.jpg",
     "static/media/background 4.jpg": "/Reactsite/static/media/background 4.1bb31c258c8138bf0ca1.jpg",
+    "static/media/collage7.jpg": "/Reactsite/static/media/collage7.392891e237aba60744e0.jpg",
+    "static/media/collage17.jpg": "/Reactsite/static/media/collage17.e681e1607e9d2efc4e77.jpg",
+    "static/media/collage9.jpg": "/Reactsite/static/media/collage9.7e6799023bf0d7e14554.jpg",
+    "static/media/collage12.jpg": "/Reactsite/static/media/collage12.ce798be3f40d6814a7f4.jpg",
+    "static/media/collage6.jpg": "/Reactsite/static/media/collage6.d84d69cde34f7571ebc5.jpg",
+    "static/media/collage8.jpg": "/Reactsite/static/media/collage8.92c23e7aaa75706cbf12.jpg",
     "static/media/solidcolour.jpg": "/Reactsite/static/media/solidcolour.0aa3e89cbfc85f2d666f.jpg",
     "index.html": "/Reactsite/index.html",
-    "main.2993d75a.css.map": "/Reactsite/static/css/main.2993d75a.css.map",
-    "main.194d2ed3.js.map": "/Reactsite/static/js/main.194d2ed3.js.map"
+    "main.13565df2.css.map": "/Reactsite/static/css/main.13565df2.css.map",
+    "main.df7ea09a.js.map": "/Reactsite/static/js/main.df7ea09a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2993d75a.css",
-    "static/js/main.194d2ed3.js"
+    "static/css/main.13565df2.css",
+    "static/js/main.df7ea09a.js"
   ]
 }
