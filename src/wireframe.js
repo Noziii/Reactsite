@@ -12,6 +12,7 @@ export default class wireframe extends Component {
   render() {
     return (
       <main className="wireframes">
+        <div className="bg-wire"></div>
         <main class="slideshow">
           <section class="Slides">
             <img src={wire1} class="wone" />
@@ -36,24 +37,8 @@ export default class wireframe extends Component {
           <section class="Slides">
             <img src={wire6} class="wsix" />
           </section>
-
-          <Link class="prev" onclick="plusSlides(-1)">
-            &#10094;
-          </Link>
-          <Link class="next" onclick="plusSlides(1)">
-            &#10095;
-          </Link>
         </main>
         <br />
-
-        <div style="text-align: center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-          <span class="dot" onclick="currentSlide(5)"></span>
-          <span class="dot" onclick="currentSlide(6)"></span>
-        </div>
       </main>
     );
   }

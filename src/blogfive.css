@@ -1,7 +1,7 @@
 .bg5 {
     background-color: rgb(31, 31, 31);
     background-size: cover;
-    height: 161vh;
+    height: 170vh;
     margin-left: -8px;
     width: 100%;
     z-index: -2;
@@ -27,7 +27,7 @@
     text-align: left;
       margin-left: 100px;
       margin-right: 100px;
-      margin-top: -1030px;
+      margin-top: -1140px;
       color: rgb(255, 255, 255);
       font-size: 20px;
       background-color: rgb(31, 31, 31);

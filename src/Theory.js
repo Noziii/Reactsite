@@ -93,7 +93,7 @@ class Theory extends Component {
                     <img src="https://images.unsplash.com/photo-1531347334762-59780ece5c76?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=marissa-grootes-YwPNWDNZHkg-unsplash.jpg&w=640" />
                   </div>
                   <header class="desc">
-                    <h3>Reflection</h3>
+                    <h3>Final Reflection</h3>
                     <p>
                       According to research internet art refers to art that is
                       made on and for the internet. So far, I hadn’t seen any

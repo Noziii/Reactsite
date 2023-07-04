@@ -1,13 +1,27 @@
 import React, { Component } from "react";
 import "./braids.css";
+import knotless from "./images/knotless.jpg";
+import normal from "./images/normal.jpg";
+import small from "./images/small.jpg";
+import medium from "./images/medium.jpg";
+import large from "./images/large.jpg";
+import jumbo from "./images/jumbo.jpg";
+import bohemian from "./images/bohemian.jpg";
+import french from "./images/french.jpg";
+import fulani from "./images/fulani.jpg";
+import passion from "./images/passion.jpg";
+import braids3 from "./images/braids3.jpg";
+import braids5 from "./images/braids5.jpg";
+import braids6 from "./images/braids6.jpg";
+import braids7 from "./images/braids7.jpg";
 
 export default class braids extends Component {
   render() {
     return (
       <main className="braids">
-        <div className="bg-cornrows"></div>
-        <main class="cornrows1">
-          <header for="name" class="cornrows-name">
+        <div className="bg-braids"></div>
+        <main class="braids1">
+          <header for="name" class="braids-name">
             Braids
           </header>
           <h2> What are braids? </h2>
@@ -25,18 +39,32 @@ export default class braids extends Component {
             which are NOT knotless see images below respectively. (Allen, 2022)
           </p>
 
+          <img src={knotless} class="knotless" />
+          <img src={normal} class="normal" />
+
           <p>
-            You can get them in different sizes small, medium, and large. As
-            well as different lengths from bob, shoulder, mid-back, bum length,
-            knee length, and even ankle length if you dare to.{" "}
+            You can get them in different sizes small, medium, large and jumbo,
+            see images below respectively. As well as different lengths from
+            bob, shoulder, mid-back, bum length, knee length, and even ankle
+            length if you dare to.
           </p>
+
+          <img src={small} class="sizes" />
+          <img src={medium} class="sizes" />
+          <img src={large} class="sizes" />
+          <img src={jumbo} class="sizes" />
 
           <p>
             Different braid hairstyles also have their different names such as
-            Goddess braids, Bohemian twists, French curls, Jumbo Knotless Coi
-            Braids, Fulani braids, Passion Twist (See images below respectively)
-            and the list goes on and on. (Allen, 2022)
+            Bohemian twists, French curls, Fulani braids, Passion Twist (See
+            images below respectively) and the list goes on and on. (Allen,
+            2022)
           </p>
+
+          <img src={bohemian} class="styles" />
+          <img src={french} class="styles" />
+          <img src={fulani} class="styles" />
+          <img src={passion} class="styles" />
 
           <h2>Braids:</h2>
 
@@ -53,15 +81,20 @@ export default class braids extends Component {
           <p>
             Braids can last for a very long time if they are taken care of
             properly it is advisable to always sleep with a bonnet or a duku on
-            to protect the hairstyle and sometimes even during the day.{" "}
+            to protect the hairstyle and sometimes even during the day.
           </p>
+
+          <img src={braids3} class="ty" />
+          <img src={braids5} class="ty" />
+          <img src={braids6} class="ty" />
+          <img src={braids7} class="ty" />
 
           <h2>Prices:</h2>
 
           <p>
             Braids prices are dependent solely on the type of hairstyle you want
             the size, length, and sometimes even the colour. They go from R300 –
-            R1800.{" "}
+            R1800.
           </p>
 
           <p>References:</p>

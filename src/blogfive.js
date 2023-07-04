@@ -17,9 +17,9 @@ export default class extends Component {
         <div className="bg5"></div>
         <main class="five">
           <header for="name" class="name5">
-            Reflection
+            Final Reflection
           </header>
-          <p>24 April 2023</p>
+          <p>26 June 2023</p>
           <p>
             According to research internet art refers to art that is made on and
             for the internet. So far, I hadn’t seen any internet art that is
@@ -49,9 +49,18 @@ export default class extends Component {
             collage is made of various images displaying different states a
             black women’s hair can take, and different hairstyles. And when the
             user clicks on the images, they can access information about that
-            specific hairstyle how to do it, how to take care of it, how long it
-            lasts, how long it takes to do it, and products to use to take care
-            of it.{" "}
+            specific hairstyle how to take care of it, how long it lasts, how
+            long it takes to do it, and how much it costs.
+          </p>
+
+          <p>
+            On my art page I tried to implement a popup for when the user hovers
+            over the images a pop up of the name of the hairstyle will appear
+            next to the mouse with a small snippet of the article they will read
+            when the presson the image. But I was unsuccessful, this would have
+            made the artwork more interactive for the user and also to let the
+            user know before hand what to expect when they click on a specific
+            image.
           </p>
 
           <p>Refrences</p>

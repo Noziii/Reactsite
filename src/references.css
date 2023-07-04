@@ -24,6 +24,7 @@
     position: center;  
     padding: 10px 10px;
     text-align: center;
+    margin-top: -1300px ;
   }
 
   
@@ -51,7 +52,7 @@
    
     body {
  
-      background-image: url(images/82f1c39ab2e84ba943a95ead9d176571.jpg) ;
+        background-image: url(images/background\ 1.jpg) ;
        background-size: cover;
       backdrop-filter: blur(10px);
       height: 273vh;

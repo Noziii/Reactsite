@@ -28,7 +28,7 @@ class Art extends Component {
           <Link to="/weave">
             <img src={righteye} class="righteye" />
           </Link>
-          <Link to="braids">
+          <Link to="/braids">
             <img src={mouth} class="mouth" />
           </Link>
         </main>

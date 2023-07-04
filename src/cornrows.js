@@ -1,5 +1,17 @@
 import React, { Component } from "react";
 import "./cornrows.css";
+import braids1 from "./images/braids1.jpg";
+import cornrows2 from "./images/cornrows2.jpg";
+import bonnet from "./images/bonnet.jpg";
+import duku from "./images/duku.jpg";
+import cornrows3 from "./images/cornrows3.jpg";
+import cornrows4 from "./images/cornrows4.jpg";
+import cornrows5 from "./images/cornrows5.jpg";
+import cornrows6 from "./images/cornrows6.jpg";
+import cornrows7 from "./images/cornrows7.jpg";
+import cornrows8 from "./images/cornrows8.jpg";
+import cornrows9 from "./images/cornrows9.jpg";
+import cornrows10 from "./images/cornrows10.jpg";
 
 export default class cornrows extends Component {
   render() {
@@ -19,9 +31,12 @@ export default class cornrows extends Component {
             differ from normal braids, braids are plaited in singulars and hang
             freely, and cornrows are braided to the scalp. Cornrows can be
             braided with one’s natural hair or using hair extensions. See
-            example below of he difference between braids and cornrows
+            example below of the difference between braids and cornrows
             respectively(Sandeen, 2022)
           </p>
+
+          <img src={braids1} class="b1" />
+          <img src={cornrows2} class="c2" />
 
           <h2>How long do they last? </h2>
 
@@ -33,11 +48,22 @@ export default class cornrows extends Component {
             respectively. And avoid having water meet your hair causing it to
             frizz out. (Sandeen, 2022)
           </p>
+          <img src={bonnet} class="bonnet" />
+          <img src={duku} class="duku" />
 
           <h2>
             Different types of patterns and hairstyles are created with corn
             rows and flat braiding:
           </h2>
+
+          <img src={cornrows3} class="c" />
+          <img src={cornrows4} class="c" />
+          <img src={cornrows5} class="c" />
+          <img src={cornrows6} class="c" />
+          <img src={cornrows7} class="c" />
+          <img src={cornrows8} class="c" />
+          <img src={cornrows9} class="c" />
+          <img src={cornrows10} class="c" />
 
           <h2>Prices? </h2>
 

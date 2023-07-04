@@ -1,107 +1,69 @@
+
+.bg-wire{
+  background-image: url(images/about3.jpg) ;
+  filter: blur(8px);
+background-size: cover;
+height: 700vh;
+margin-left: -8px;
+margin-right: -8px;
+z-index: -6;
+margin-top: -100px;
+margin-bottom: -39px;
+position: relative;
+
+}
+
 /* Slideshow container */
 .slideshow {
     max-width: 950px;
     max-height: 610px;
+    margin-left: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -4800px;
    }
   
    /* Hide the images by default */
    .Slides {
-     display: none;
+     display: inline;
    }
   
-   .one{
-     width: 160%;
-     height: 780px;
+   .wone{
+     width: 150%;
+     height: 760px;
+     
+     
    }
   
-   .two {
-    width: 160%;
-    height: 780px;
+   .wtwo {
+    width: 150%;
+    height: 760px;
    }
   
-   .three {
-    width: 160%;
-    height: 780px;
+   .wthree {
+    width: 150%;
+     height: 760px;
    }
   
-   .four {
-    width: 160%;
-    height: 780px;
+   .wfour {
+    width: 150%;
+     height: 760px;
    }
   
-   .five {
-    width: 160%;
-    height: 780px;
+   .wfive {
+    width: 150%;
+     height: 760px;
    }
   
-   .six {
-    width: 160%;
-    height: 780px;
+   .wsix {
+    width: 150%;
+     height: 760px;
    }
   
    
    .img { 
     vertical-align: middle;
+    padding: 10px 30px;
    }
   
-   /* Next & previous buttons */
-   .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: 80px;
-    padding: 16px;
-    color: rgb(95, 93, 93);
-    font-weight: bold;
-    font-size: 25px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-   }
-  
-   /* Position the "next button" to the right */
-   .next {
-    right: 10px;
-    border-radius: 3px 0 0 3px;
-   }
-  
-   .prev {
-    left: 0;
-    border-radius: 3px 0 0 3px;
-  
-   }
-  
-   /* On hover, add a black background color with a little bit see-through */
-   .prev:hover, .next:hover {
-    background-color: rgba(157, 149, 149, 0.8);
-   }
-  
-   /* Caption text */
    
-   
-  
-   /* The dots/bullets/indicators */
-   .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    margin-top: 80px;
-   }
-  
-   .active, .dot:hover {
-    background-color: #717171;
-   }
-  
-   /* Fading animation */
-   .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-   }

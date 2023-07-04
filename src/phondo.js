@@ -1,10 +1,18 @@
 import React, { Component } from "react";
 import "./phondo.css";
+import phondo1 from "./images/phondo1.jpg";
+import phondo2 from "./images/phondo2.jpg";
+import phondo3 from "./images/phondo3.jpg";
+import phondo4 from "./images/phondo4.jpg";
+import phondo5 from "./images/phondo5.jpg";
+import phondo6 from "./images/phondo6.jpg";
+import phondo7 from "./images/phondo7.jpg";
+import phondo8 from "./images/phondo8.jpg";
 
 export default class phondo extends Component {
   render() {
     return (
-      <main className="phondo">
+      <main className="iphondo">
         <div className="bg-phondo"></div>
         <main class="phondo1">
           <header for="name" class="phondo-name">
@@ -24,6 +32,15 @@ export default class phondo extends Component {
             the extension that suits your hair type. See below images of the
             variations of iphondo.
           </p>
+
+          <img src={phondo1} class="phondo" />
+          <img src={phondo2} class="phondo" />
+          <img src={phondo3} class="phondo" />
+          <img src={phondo4} class="phondo" />
+          <img src={phondo5} class="phondo" />
+          <img src={phondo6} class="phondo" />
+          <img src={phondo7} class="phondo" />
+          <img src={phondo8} class="phondo" />
 
           <h2>Prices?</h2>
 

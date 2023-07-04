@@ -47,7 +47,7 @@ export default class blogthree extends Component {
 
           <p>
             The user will be able to click on the image and find out information
-            about that specific hairstyle how to do it, how to take care of it,
+            about that specific hairstyle, how much it costs, the pros and cons
             how long it usually takes to get done, how long it lasts, and how to
             take care of it. The information provided will be from my own
             knowledge as well as research.
