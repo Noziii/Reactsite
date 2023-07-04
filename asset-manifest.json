@@ -1,28 +1,45 @@
 {
   "files": {
-    "main.css": "/Reactsite/static/css/main.13565df2.css",
-    "main.js": "/Reactsite/static/js/main.df7ea09a.js",
+    "main.css": "/Reactsite/static/css/main.8d6aa166.css",
+    "main.js": "/Reactsite/static/js/main.ef0ce99e.js",
     "static/media/IMG-7498.jpg": "/Reactsite/static/media/IMG-7498.373c684292ff981443da.jpg",
     "static/media/IMG-5152.jpg": "/Reactsite/static/media/IMG-5152.261b43b499d73d9a4004.jpg",
+    "static/media/IMG-5009.jpg": "/Reactsite/static/media/IMG-5009.11e1bb5cba578fc5eff7.jpg",
+    "static/media/IMG-5012.jpg": "/Reactsite/static/media/IMG-5012.6c28ecb55ec97c368d0d.jpg",
+    "static/media/IMG-5032.jpg": "/Reactsite/static/media/IMG-5032.3adc0801c80a4a688a02.jpg",
     "static/media/IMG-7364.jpg": "/Reactsite/static/media/IMG-7364.03104e78ad615b922bba.jpg",
+    "static/media/IMG-5016.jpg": "/Reactsite/static/media/IMG-5016.f6b3307ac92c38d72ade.jpg",
+    "static/media/IMG-5019.jpg": "/Reactsite/static/media/IMG-5019.d50b1a7c345f4fa55a95.jpg",
+    "static/media/IMG-5021.jpg": "/Reactsite/static/media/IMG-5021.72a761e889e4bff19739.jpg",
     "static/media/050F1386-BD64-4B29-85A1-3DDD5F4C2C04.jpg": "/Reactsite/static/media/050F1386-BD64-4B29-85A1-3DDD5F4C2C04.e289456ccc2b85683df6.jpg",
     "static/media/background 1.jpg": "/Reactsite/static/media/background 1.9e3825cb8dba1afffdf6.jpg",
+    "static/media/About1.jpg": "/Reactsite/static/media/About1.a870f72de4111ffaa455.jpg",
     "static/media/collage.jpg": "/Reactsite/static/media/collage.7aaa160215f0f43ba5fb.jpg",
+    "static/media/wash day.jpg": "/Reactsite/static/media/wash day.fdd105a6b0315e73af5f.jpg",
+    "static/media/Afro2.jpg": "/Reactsite/static/media/Afro2.ed81a3f432922b2d817e.jpg",
     "static/media/background 5.jpg": "/Reactsite/static/media/background 5.7a098b832d7ba07e3828.jpg",
+    "static/media/P-CurlyHairType-ImagePrep-1080x662.jpg": "/Reactsite/static/media/P-CurlyHairType-ImagePrep-1080x662.836a73ddccc06ac873cf.jpg",
+    "static/media/bantuknots.jpg": "/Reactsite/static/media/bantuknots.3a4588ddd776f133ba6e.jpg",
+    "static/media/twists.jpg": "/Reactsite/static/media/twists.941bdb5f9c709c5a6f2c.jpg",
+    "static/media/braids.jpg": "/Reactsite/static/media/braids.5ffd3c5b26aa865cf26c.jpg",
+    "static/media/Afro3.jpg": "/Reactsite/static/media/Afro3.5363a5f5cb8685ab5288.jpg",
+    "static/media/about3.jpg": "/Reactsite/static/media/about3.e4cc89229fc258873b7a.jpg",
+    "static/media/cornrows.jpg": "/Reactsite/static/media/cornrows.c1abac342ab74b8b0822.jpg",
     "static/media/background 4.jpg": "/Reactsite/static/media/background 4.1bb31c258c8138bf0ca1.jpg",
     "static/media/collage7.jpg": "/Reactsite/static/media/collage7.392891e237aba60744e0.jpg",
+    "static/media/Afro1.jpg": "/Reactsite/static/media/Afro1.53a69dbe1bab2027c3db.jpg",
     "static/media/collage17.jpg": "/Reactsite/static/media/collage17.e681e1607e9d2efc4e77.jpg",
     "static/media/collage9.jpg": "/Reactsite/static/media/collage9.7e6799023bf0d7e14554.jpg",
-    "static/media/collage12.jpg": "/Reactsite/static/media/collage12.ce798be3f40d6814a7f4.jpg",
+    "static/media/collage22.jpg": "/Reactsite/static/media/collage22.005d1988fb57a8ba16e5.jpg",
     "static/media/collage6.jpg": "/Reactsite/static/media/collage6.d84d69cde34f7571ebc5.jpg",
     "static/media/collage8.jpg": "/Reactsite/static/media/collage8.92c23e7aaa75706cbf12.jpg",
     "static/media/solidcolour.jpg": "/Reactsite/static/media/solidcolour.0aa3e89cbfc85f2d666f.jpg",
     "index.html": "/Reactsite/index.html",
-    "main.13565df2.css.map": "/Reactsite/static/css/main.13565df2.css.map",
-    "main.df7ea09a.js.map": "/Reactsite/static/js/main.df7ea09a.js.map"
+    "main.8d6aa166.css.map": "/Reactsite/static/css/main.8d6aa166.css.map",
+    "main.ef0ce99e.js.map": "/Reactsite/static/js/main.ef0ce99e.js.map"
   },
   "entrypoints": [
-    "static/css/main.13565df2.css",
-    "static/js/main.df7ea09a.js"
+    "static/css/main.8d6aa166.css",
+    "static/js/main.ef0ce99e.js"
   ]
 }
