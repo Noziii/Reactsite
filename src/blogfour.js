@@ -32,8 +32,8 @@ class blogfour extends Component {
           <p>
             The site makes use of simple navigation tools the menu bar remains
             at the top right hand corner of every page. That way the user does
-            not getconfused. There is a consistent use of colour among all the
-            page creating harmony. (Maze, 2022)
+            not get confused. There is a consistent use of colour among all the
+            pages creating harmony. (Maze, 2022)
           </p>
 
           <p>2) Readability and Legibility:</p>
@@ -64,21 +64,23 @@ class blogfour extends Component {
             going on. The site gives the user back useful feedback, in various
             ways when hovering over the menu the pointer will change to let the
             user know that it is clickable and the page, they are currently on
-            will be highlighted in the menu to show where the user is.
-            Similarly, for the cards on the design page when the user hovers
-            over the cards the pointer will change to give the user feedback
-            that they can click on it. On the Blog page there is a button
-            provided for the user to click so they can read the desired post.
-            For the art page the user can hover over the images and it will blur
-            and the cursor will chaneg to indicate that the image is clickable.
-            (Maze, 2022)
+            should be highlighted in the menu to show where the user is, but the
+            acive class in my code refuses to work. Similarly, for the cards on
+            the design page when the user hovers over the cards the pointer will
+            change to give the user feedback that they can click on it. On the
+            Blog page there is a button provided for the user to click so they
+            can read the desired post. For the art page the user can hover over
+            the images and it will blur and the cursor will change to indicate
+            that the image is clickable. (Maze, 2022)
           </p>
 
           <p>5) Responsive</p>
           <p>
             Certain parts of the site are responsive such as some text and the
             menu but other aspects such as images i struggle to have them be
-            resposnive. (Maze, 2022)
+            responsive. I understand that it is important for a site to be
+            responsive in order to accomodate smaller devices such as phones and
+            tablets. (Maze, 2022)
           </p>
 
           <p>6) Clarity</p>
