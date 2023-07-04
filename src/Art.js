@@ -4,7 +4,7 @@ import headright from "./images/collage9.jpg";
 import headleft from "./images/collage7.jpg";
 import lefteye from "./images/collage8.jpg";
 import righteye from "./images/collage6.jpg";
-import mouth from "./images/collage12.jpg";
+import mouth from "./images/collage22.jpg";
 import chest from "./images/collage17.jpg";
 import { Link } from "react-router-dom";
 
@@ -13,15 +13,24 @@ class Art extends Component {
     return (
       <main className="Art">
         <div className="bg-art"></div>
-        <main class="art">
-          <img src={headright} class="headright" />
-          <Link>
+
+        <main className="art">
+          <Link to="/cornrows">
+            <img src={headright} class="headright" />
+          </Link>
+
+          <Link to="/natural">
             <img src={headleft} class="headleft" />
           </Link>
-          <img src={lefteye} class="lefteye" />
-          <img src={righteye} class="righteye" />
-          <img src={mouth} class="mouth" />
-          <img src={chest} class="chest" />
+          <Link to="/phondo">
+            <img src={lefteye} class="lefteye" />
+          </Link>
+          <Link to="/weave">
+            <img src={righteye} class="righteye" />
+          </Link>
+          <Link to="braids">
+            <img src={mouth} class="mouth" />
+          </Link>
         </main>
       </main>
     );

@@ -44,7 +44,7 @@ border-right: none;
   color: rgb(227, 198, 215);
  
 }
-.nav a.active{
+.nav li .active{
   text-decoration: underline ;
   color: rgb(227, 198, 215);
  

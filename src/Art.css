@@ -10,65 +10,75 @@
   }
 
   .art{
-    margin-top: -1250px;
+    margin-top: -1190px;
   }
  
   
-   .headright{
- margin-top: 200px;
- margin-left: 300px;
- 
- 
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   }
- 
-   .headleft{
-     z-index: -1;
-     margin-left: -15px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   }
- 
- .lefteye{
+  .headright{
+    margin-top: 200px;
+    margin-left: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
 
-  margin-top: -60px;
-  margin-left: 270px;
-  float: left;
-  z-index: -1;
-  width: 400px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    } 
- 
-    .righteye{
- margin-right: 300px;
- z-index: -2;
- width: 480px;
- margin-top: -7px;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+      
+      .art img.headright .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+      
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+      
+      .art img.headright:hover .tooltiptext {
+        visibility: visible;
+      }
+    
+      .headleft{
+        z-index: -1;
+        margin-left: -15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    
+    .lefteye{
+     margin-top: -60px;
+     margin-left: 270px;
+     float: left;
+     z-index: -1;
+     width: 400px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       } 
+    
+       .righteye{
+    margin-right: 300px;
+    z-index: -2;
+    width: 480px;
+    margin-top: -7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       }
+    
+    .mouth{
+    z-index: 1;
+    margin-right: 447px;
+    float: right;
+    width: 700px;
+    margin-top: -5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
- 
- .mouth{
- z-index: 1;
- margin-right: 480px;
- float: right;
- width: 720px;
- margin-top: -5px;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
- 
- .chest{
-   margin-left: 300px;
-   width: 700px;
-   margin-top: -15px;
-   z-index: 3;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
- .breast{
-   margin-left: 300px;
-   width: 700px;
-   margin-top: -15px;
-   z-index: 3;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
+     
+    .chest{
+      margin-left: 300px;
+      width: 700px;
+      margin-top: -15px;
+      z-index: 3;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
  
  
  .art img{

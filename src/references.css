@@ -1,0 +1,87 @@
+.bg-ref {
+   
+    background-image: url(images/background\ 1.jpg) ;
+    background-size: cover;
+    filter: blur(10px);
+    position: relative;
+   height: 204vh;
+   margin-top: -100px;
+   margin-right: -8px;
+   margin-left: -11px;
+   z-index: -3; 
+    background-attachment:inherit ;
+    margin-bottom: -300px;
+  }
+
+
+.ref-name {
+    color: rgb(242, 214, 214);
+    font-size: 70px;
+    font-family: Lucida handwriting;
+    font-weight: bold;
+    line-height: 130px;
+    margin-left: 110px;
+    position: center;  
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  
+  .ref {
+    text-align: left;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 10px;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      background-color: rgb(31, 31, 31);
+      line-height: 80px;
+      border-radius: 0px;
+      padding: 40px 40px;
+       font-weight: 400;
+       line-height: 1.5;
+      font-family: 'Raleway', sans-serif;
+  }
+
+  @media (max-width: 800px) {
+    .bars {
+      display: block;
+    }
+
+   
+    body {
+ 
+      background-image: url(images/82f1c39ab2e84ba943a95ead9d176571.jpg) ;
+       background-size: cover;
+      backdrop-filter: blur(10px);
+      height: 273vh;
+   
+     }
+
+     .ref-name {
+      color: rgb(242, 214, 214);
+      font-size: 60px;
+      font-family: Lucida handwriting;
+      font-weight: bold;
+      line-height: px;
+      margin-left: px;
+      position: left;  
+      padding: 10px 10px;
+      text-align: center;
+    }
+
+    #check:checked ~ ul {
+      left: 0;
+    }
+
+    @media only screen and (max-width:800px) {
+      /* For tablets: */
+      .main {
+        width: 80%;
+        padding: 0;
+      }
+      .right {
+        width: 100%;
+      }
+  }
+}

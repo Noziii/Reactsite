@@ -5,7 +5,7 @@ class styleguide extends Component {
   render() {
     return (
       <main className="styleguide">
-        <div className="bg-styleguide"></div>
+        <div className="bg-st0yleguide"></div>
         <header for="name" class="name">
           Style Guide:
         </header>

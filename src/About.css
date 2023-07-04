@@ -1,0 +1,54 @@
+.bg-about {
+   
+    background-image: url(images/background\ 1.jpg) ;
+    background-size: cover;
+    filter: blur(10px);
+    position: relative;
+   height: 160vh;
+   margin-top: -100px;
+   margin-right: -8px;
+   margin-left: -14px;
+   z-index: -3; 
+    background-attachment:inherit ;
+    
+  }
+
+  .about{
+    text-align: right;
+      margin-left: 100px;
+      margin-right: 90px;
+      margin-top: -900px;
+      color: rgb(255, 255, 255);
+      font-size: 25px;
+      background-color: rgb(31, 31, 31);
+      border-radius: 0px;
+      padding: 20px 80px;
+       font-weight: 400;
+       line-height: 1.8;
+      font-family: 'Raleway', sans-serif;
+  }
+
+  .aboutimg{
+  height: 500px;
+  width: 400px;
+  float: left;
+  margin-top: -530px;
+  margin-left: 40px;
+  }
+
+  .ubs{
+    margin-left: 600px;   
+  }
+
+  .name-about{
+    color: rgb(242, 214, 214);
+    font-size: 70px;
+    font-family: Lucida handwriting;
+    font-weight: bold;
+    line-height: 130px;
+    margin-left: 110px;
+    position: center;  
+    padding: 10px 10px;
+    text-align: center;
+  }
+  

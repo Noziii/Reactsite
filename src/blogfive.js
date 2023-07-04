@@ -40,7 +40,7 @@ export default class extends Component {
             the abstract collage I have created through the images I have put
             together. The images themselves serve as artwork works that is
             photography. And lastly, something that I consider to be an art form
-            which is black women’s hair.{" "}
+            which is black women’s hair.
           </p>
 
           <p>

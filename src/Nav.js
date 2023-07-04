@@ -39,6 +39,12 @@ class Nav extends Component {
             </li>
 
             <li>
+              <Link exact activeClassName="active" to="/About">
+                About
+              </Link>
+            </li>
+
+            <li>
               <Link exact activeClassName="active" to="/Theory">
                 Theory
               </Link>
